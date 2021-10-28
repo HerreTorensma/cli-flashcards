@@ -1,0 +1,10 @@
+cards:
+- name: Cat
+  desc: Do whatever they want.
+  known: false
+- name: Mouse
+  desc: A small animal living in your house.
+  known: false
+- name: Mosquito
+  desc: Annoying bug. Should be eliminated.
+  known: false
