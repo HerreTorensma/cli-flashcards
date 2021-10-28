@@ -1,3 +1,4 @@
 decks/*
+__pycache__
 
 !decks/example.yml
