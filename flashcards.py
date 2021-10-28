@@ -10,6 +10,10 @@ def start():
 
 	if len(sys.argv) > 1:
 		if sys.argv[1] == "create":
+			if len(sys.argv) == 2:
+				print("Please specify a name.")
+				return
+			
 			with open(f"decks/{sys.argv[2]}.yml", "w") as file:
 				yaml.dump({"cards": []}, file)
 			return
